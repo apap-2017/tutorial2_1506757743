@@ -1,0 +1,9 @@
+Nama: Muhammad Farhan Mardadi
+NPM: 1506757743
+
+Pada tutorial kedua ini saya mempelajari bagaimana membuat sebuah program sederhana menggunakan framework spring boot.
+Pertama - tama saya membuat sebuah file html yang berisikan tampilan yang akan ditampilkan pada web browser. Dengan menggunakan thymeleaf dapat menerima parameter yang dikirimkan dari controller.
+Lalu saya membuat file java bernama PageController yang tugasnya adalah merespon HTTP dan mengembalikan View. 
+@RequestMapping menandakan bahwa jika ada request HTTP pada path yang ditulis akan memanggil method yang ada tepat dibawahnya.
+@RequestParam berguna untuk mengirimkan parameter menggunakan GET request.
+@PathVariable berguna untuk mengirimkan data dari URL yang menggunakan path variable.
